@@ -35,15 +35,15 @@ Commands
 
 * ng component components/about
 
-![alt-text](images.click.png)
+![alt-text](images/click.png)
 
-![alt-text](images.delete.png)
+![alt-text](images/delete.png)
 
-![alt-text](images.output1.png)
+![alt-text](images/output1.png)
 
-![alt-text](images.output2.png)
+![alt-text](images/output2.png)
 
-![alt-text](images.typing.png)
+![alt-text](images/typing.png)
 
-![alt-text](images.typing2.png)
+![alt-text](images/typing2.png)
 
