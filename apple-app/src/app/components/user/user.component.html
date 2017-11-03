@@ -2,11 +2,12 @@
 <ul>
   <li>Age: {{age}}</li>
   <li>Email: {{email}}</li>
-  <li>Address: {{address.stree}} {{address.city}}, {{address.state}}</li>
+  <li>Address: {{address.street}} {{address.city}}, {{address.state}}</li>
 </ul>
 
 <button (click)="onClick()">Click me</button>
 <button (click)="toggleEdit()">Edit </button>
+
 <div *ngIf=isEdit>
 <h1> Edit User </h1>
   <form>
@@ -36,6 +37,7 @@
     </div>
   </form>
 </div>
+
 <h1>Hobbies</h1>
 <form (submit)="addHobby(hobby.value)">
   <div>
@@ -43,7 +45,6 @@
     <input type="text" #hobby>
   </div>
 </form>
-
 
 <ul>
   <li *ngFor="let hobby of hobbies; let i = index">{{i + 1}}: {{hobby}}
