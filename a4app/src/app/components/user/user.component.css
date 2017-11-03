@@ -2,4 +2,12 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(132, 132, 248);
     text-align: center;
+    
+}
+body {
+    background-image: url('https://c.pxhere.com/photos/bf/5a/cloud_blue_nature_clouds_white_composition_space_unbelievable-1402000.jpg!d');
+    background-repeat: no-repeat;
+    background: cover;
+    max-height: 100%;
+    max-width: 100%;
 }

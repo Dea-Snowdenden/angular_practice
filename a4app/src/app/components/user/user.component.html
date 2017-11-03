@@ -1,3 +1,4 @@
+<body>
 <h1>My name is {{name}}</h1>
 <ul>
   <li>Age: {{age}}</li>
@@ -47,7 +48,7 @@
 </form>
 <ul>
   <li *ngFor="let hobby of hobbies; let i = index">{{i + 1}}: {{hobby}}
-  <button (click)="deleteHobby()"> X </button>
+  <button (click)="deleteHobby(i)"> X </button>
   </li>
 </ul>
 
@@ -56,5 +57,6 @@
 <h4>{{post.title}}</h4>
 <p>{{post.body}}</p>
 </div>
+</body>
 
 
