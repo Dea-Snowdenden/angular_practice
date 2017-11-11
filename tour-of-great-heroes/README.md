@@ -33,5 +33,7 @@ GENERATED COMMANDS:
 * ng generate service hero
 * ng generate srvice hero --module=app
 * ng generate component messages
+* ng generate module app-routing --flat --module=app
+* ng generate component dashboard
 
 *ngFor: repeater directive
