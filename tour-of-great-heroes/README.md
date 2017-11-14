@@ -35,5 +35,6 @@ GENERATED COMMANDS:
 * ng generate component messages
 * ng generate module app-routing --flat --module=app
 * ng generate component dashboard
+* npm install angular-in-memory-web-api --save
 
 *ngFor: repeater directive

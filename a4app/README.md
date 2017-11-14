@@ -47,3 +47,5 @@ Commands
 
 ![alt-text](images/typing2.png)
 
+cheatsheet: https://docs.google.com/document/d/1JBLiWL0MYSXXUcgl43tqT2PfM1xurIcs2ERUbb-fZYE/edit#heading=h.579ucc9ekw0i
+
