@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('apple-app App', () => {
+describe('crudapp App', () => {
   let page: AppPage;
 
   beforeEach(() => {
