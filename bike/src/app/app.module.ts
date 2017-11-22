@@ -21,9 +21,8 @@ import { MaterialModule,  MdList, MdListItem } from '@angular/material';
     BrowserModule,
     FormsModule,
     HttpModule,
-    MaterialModule, 
-    AppRoutingModule.forRoot()
-
+    MaterialModule.forRoot(),
+    AppRoutingModule
   ],
   providers: [BikeService],
   bootstrap: [AppComponent]
