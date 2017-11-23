@@ -1,16 +1,34 @@
 {
-    "products": [
-        {
-            "name": "t-shirt",
-            "color": "red"
-        },
-        {
-            "name": "jacket",
-            "color": "blue"
-        },
-        {
-            "name": "pants",
-            "color": "black"                        
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "t-shirt",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "name": "jacket",
+      "color": "blue"
+    },
+    {
+      "id": 3,
+      "name": "pants",
+      "color": "black"
+    },
+    {
+      "name": "polo",
+      "color": "white",
+      "id": 4
+    },
+    {
+      "name": "polo",
+      "color": "white",
+      "id": 5
+    },
+    {
+      "name": "tie",
+      "color": "black",
+      "id": 6
+    }
+  ]
 }
