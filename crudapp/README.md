@@ -32,9 +32,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * ng serve
 * npm install -g json-server
 * cmd: go to file path of app then: `json-server -p 5555 products.json`
-![alt-text](images/localhost:5555.png)
+![alt-text](images/localhost5555.png)
 
 * ng g c home
 * ng g c product
 
 ![alt-text](images/first.png)
+
+
+![alt-text](images/second.png)
