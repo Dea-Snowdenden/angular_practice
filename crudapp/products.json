@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "t-shirt",
-      "color": "red"
-    },
-    {
       "id": 2,
       "name": "jacket",
       "color": "blue"
@@ -26,8 +21,8 @@
       "id": 5
     },
     {
-      "name": "tie",
-      "color": "black",
+      "name": "pants",
+      "color": "blue",
       "id": 6
     }
   ]
