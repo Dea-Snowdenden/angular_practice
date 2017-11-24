@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { UserService } from './user.service';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
@@ -20,9 +23,11 @@ import { UserEditComponent } from './user-edit/user-edit.component';
     UserEditComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
