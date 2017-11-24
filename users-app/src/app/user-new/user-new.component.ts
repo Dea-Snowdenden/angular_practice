@@ -1,7 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { User } from './../user';
-
 
 @Component({
   selector: 'app-user-new',
@@ -10,12 +9,15 @@ import { User } from './../user';
 })
 export class UserNewComponent implements OnInit {
 
-
   newUser = new User();
+  @Output() createNewUserEvent = new EventEmitter();
 
   constructor() { }
 
   ngOnInit() {
+    // call server to save
+    this.createNewUserEvent.emit(this.newUser);
+    this.newUser= new User();
   }
 
 }
