@@ -21,6 +21,10 @@ export class UserComponent implements OnInit {
   //  this.getUsers();
   }
 
+  create(user: User){
+    this.users.push(user);
+  }
+
   getUsers(){
   //  this._userService.getUsers()
   //  .then(users => this.users = users)

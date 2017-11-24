@@ -28,11 +28,10 @@ export class UserService {
   getUsers() {
     return this._http.get("/users")
     .map(data => data.json()).toPromise()
-
-  getUser(user: User){
-    return this._http.get("/users/"+user._id)
-    .map(data => data.json()).toPromise()
-
   }
+    getUser(user: User){
+      return this._http.get("/users/"+user._id)
+      .map(data => data.json()).toPromise()
+    }
     
 }
