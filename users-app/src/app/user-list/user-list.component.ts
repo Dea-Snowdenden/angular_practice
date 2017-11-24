@@ -17,4 +17,7 @@ export class UserListComponent implements OnInit {
   ngOnInit() {
   }
 
+  destroy(user: User){
+  this.destroyUserEvent.emit(user);
+}
 }
