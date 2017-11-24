@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { User } from './../user';
+
 
 @Component({
   selector: 'app-user-new',
@@ -6,6 +9,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-new.component.css']
 })
 export class UserNewComponent implements OnInit {
+
+
+  newUser = new User();
 
   constructor() { }
 
