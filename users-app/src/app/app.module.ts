@@ -1,8 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { User } from './user';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
@@ -11,7 +8,6 @@ import { UserDetailsComponent } from './user-details/user-details.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserNewComponent } from './user-new/user-new.component';
 import { UserEditComponent } from './user-edit/user-edit.component';
-import { UserService } from './user.service';
 
 
 @NgModule({
@@ -21,15 +17,12 @@ import { UserService } from './user.service';
     UserDetailsComponent,
     UserListComponent,
     UserNewComponent,
-    UserEditComponent,
-
+    UserEditComponent
   ],
   imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule
+    BrowserModule
   ],
-  providers: [UserService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
