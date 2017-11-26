@@ -8,11 +8,14 @@ import { User } from '../user';
 })
 export class UserEditComponent implements OnInit {
 
-  @Input() user;
+  @Input() user: User;
+  userEdit: User = new User();
 
   constructor() { }
 
   ngOnInit() {
+    Object.assign(this.userEdit, this.user);
+    console.log(this.userEdit);
   }
 
 }
