@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { User } from './../user';
+// import { trigger,style,transition,animate,keyframes,query,stagger } from '@angular/animations';
 
 
 @Component({
@@ -22,7 +23,7 @@ export class UserListComponent implements OnInit {
   this.destroyUserEvent.emit(user);
 }
 
-update(users){
-  this.updateUserEvent.emit(users);
+  update(users){
+    this.updateUserEvent.emit(users);
 }
 }

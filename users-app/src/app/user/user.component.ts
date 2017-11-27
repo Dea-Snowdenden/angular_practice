@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from '../user';
 import { UserService } from '../user.service';
+// import { trigger,style,transition,animate,keyframes,query,stagger } from '@angular/animations';
+
 
 @Component({
   selector: 'app-user',

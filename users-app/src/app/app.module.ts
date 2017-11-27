@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 import { UserService } from './user.service';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 
 
 import { AppComponent } from './app.component';
@@ -25,7 +28,8 @@ import { UserEditComponent } from './user-edit/user-edit.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    BrowserAnimationsModule
   ],
   providers: [UserService],
   bootstrap: [AppComponent]
