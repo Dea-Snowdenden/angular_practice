@@ -1,0 +1,16 @@
+<form class="formwidth" (ngSubmit)="onSubmit()" #myForm="ngForm">
+  <table class="fulwidth" cellspacing="0">
+    <tr>
+      <td>
+        <mat-input-container class="fullwidth">
+          <input type="text" matInput placeholder="First name" [(ngModel)]="address.firstname" name="firstname">
+        </mat-input-container>
+      </td>
+      <td>
+        <mat-input-container class="fullwidth">
+          <input type="text" matInput placeholder="Last name" [(ngModel)]="address.lastname" name="lastname">
+        </mat-input-container>
+      </td>
+    </tr>
+  </table>
+</form>
