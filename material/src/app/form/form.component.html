@@ -1,5 +1,5 @@
-<form class="formwidth" (ngSubmit)="onSubmit()" #myForm="ngForm">
-  <table class="fulwidth" cellspacing="0">
+<form class="formwidth" (ngSubmit)="onSubmit()" #Form="ngForm">
+  <table class="fullwidth" cellspacing="0">
     <tr>
       <td>
         <mat-input-container class="fullwidth">
@@ -29,7 +29,7 @@
       </td>
       <td>
         <mat-input-container class="fullwidth">
-          <input matInput maxlength="5" #postalcode placeholder="postal code" id="postalcode" [(ngModel)]="address.postalcode" name="postalcode">
+          <input matInput maxlength="5" #postalcode placeholder="Postal Code" id="postalcode" [(ngModel)]="address.postalcode" name="postalcode">
           <mat-hint align="end">
             {{postalcode.value.length}} /5
           </mat-hint>

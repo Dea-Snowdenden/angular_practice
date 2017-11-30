@@ -1,3 +1,11 @@
 h3 {
     text-align: center;
 }
+
+.formwidth{
+    width: 500px;
+}
+
+.fullwidth{
+    width: 100%;
+}

@@ -1,8 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { UserService } from './user.service';
-import { FormsModule } from '@angular/forms';
+
 import { HttpModule } from '@angular/http';
+
+import { FormsModule } from '@angular/forms';
+import { MatInputModule, MatButtonModule, MatFormFieldControl, MatFormField } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -29,7 +32,10 @@ import { UserEditComponent } from './user-edit/user-edit.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatButtonModule,
+    MatFormField
   ],
   providers: [UserService],
   bootstrap: [AppComponent]

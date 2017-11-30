@@ -1,5 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { User } from './../user';
+import { MatInputModule, MatButtonModule } from '@angular/material';
 
 @Component({
   selector: 'app-user-new',
@@ -7,12 +8,16 @@ import { User } from './../user';
   styleUrls: ['./user-new.component.css']
 })
 export class UserNewComponent implements OnInit {
+
+//  first_name: string; 
+
   newUser = new User();
   @Output() createNewUserEvent = new EventEmitter();
 
   constructor() { }
 
   ngOnInit() {
+//    this.first_name= 'minion'
   }
 
   create(){

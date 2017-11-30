@@ -1,8 +1,22 @@
-<h3>New Profile</h3>
-<form (submit)="create()">
-  <input type="text" name="first_name"  [(ngModel)]="newUser.first_name">
-  <input type="text" name="last_name"  [(ngModel)]="newUser.last_name">
-  <input type="text" name="email"  [(ngModel)]="newUser.email">
-  <input type="submit">
-</form> 
-
+<h5>New Profile</h5>
+<form (submit)="update()">
+  <table class="fullwidth" cellspacing="0">
+    <tr>
+      <td>
+          <mat-input-container class="fullwidth">
+            <input matInput placeholder="First name" [(ngModel)]="newUser.first_name" name="first_name">          </mat-input-container>        
+      </td>
+      <td>
+          <mat-input-container class="fullwidth">
+            <input matInput placeholder="Last name"  [(ngModel)]="newUser.last_name" name="last_name">
+          </mat-input-container>
+      </td>
+      <td>
+          <mat-input-container class="fullwidth">
+              <textarea mdInput placeholder="email" [(ngModel)]="newUser.email" name="email"></textarea>
+          </mat-input-container>
+      </td>
+            <input type="submit">
+    </tr>
+</table>
+</form>

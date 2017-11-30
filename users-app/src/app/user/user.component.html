@@ -1,12 +1,12 @@
-<div class="container color-dark" id="dark">
+<div>
     <div class="col">
 <h1>Users-App-Main</h1>
     </div>
  {{ users | json }}
-<div class="container color-light" id="light">
+<div>
 <app-user-new (createNewUserEvent)="create($event)"></app-user-new>
 </div>
-<div class="container color-light" id="light">
+<div>
 <app-user-list [users]="users" 
 (destroyUserEvent)="destroy($event)"
 (updateUserEvent)="update($event)">
